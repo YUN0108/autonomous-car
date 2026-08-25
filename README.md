@@ -99,23 +99,25 @@ Bluetooth를 통해 사용자가 직접 차량을 조작
 자율주행은 상태 기반으로 동작
 
 STOPPED
-   │
-   ▼
+   |
+   v
 DRIVE
-   │
-   │ Front obstacle detected
-   ▼
+   |
+   | Front obstacle detected
+   v
 STOP_BEFORE_TURN
-   │
-   ├──────────────┐
-   ▼              ▼
+   |
+   +--------------+
+   |              |
+   v              v
 PIVOT_LEFT    PIVOT_RIGHT
-   │              │
-   └──────┬───────┘
-          ▼
+   |              |
+   +------+-------+
+          |
+          v
  STOP_AFTER_TURN
-          │
-          ▼
+          |
+          v
         DRIVE
 
 
