@@ -124,6 +124,7 @@ PIVOT_LEFT    PIVOT_RIGHT
           |
           v
         DRIVE
+```
 
 
 
@@ -167,6 +168,7 @@ USART2를 이용하여 초음파 센서 측정값을 출력
 
 ## Software Structure
 
+```text
 Core/
 ├── Inc/
 │   ├── FreeRTOSConfig.h
@@ -196,5 +198,5 @@ Core/
     ├── tim.c
     ├── ultrasonic.c
     └── usart.c
-
+```
 
