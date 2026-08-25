@@ -10,8 +10,7 @@ HC-06 Bluetooth 모듈을 통해 수동 주행과 자율주행 모드를 전환 
 ## Development Environment
 
 - STM32F411RE
-- STM32 HAL
-- FreeRTOS
+- STM32CubeMX
 - STM32CubeIDE
 
 
@@ -19,7 +18,7 @@ HC-06 Bluetooth 모듈을 통해 수동 주행과 자율주행 모드를 전환 
 ## 주요 기능
 
 * FreeRTOS 기반 멀티태스킹
-* Bluetooth를 이용
+* Bluetooth 이용
 * Manual / Autonomous 주행 모드 전환
 * 좌 / 중앙 / 우측 초음파 센서를 이용한 거리 측정
 * 전방 장애물 감지 및 회피
@@ -67,7 +66,7 @@ HC-06 Bluetooth 모듈을 통해 수동 주행과 자율주행 모드를 전환 
 
 ### Manual Mode
 
-Bluetooth를 통해 사용자가 직접 차량을 조작
+사용자가 직접 차량을 조작
 
 | Command | 동작        |
 | ------- | ----------- |
@@ -82,9 +81,9 @@ Bluetooth를 통해 사용자가 직접 차량을 조작
 
 ### Autonomous Mode
 
-`U` 명령을 입력하면 Autonomous Mode가 시작
+`U` 명령을 입력하면 Autonomous Mode 시작
 
-차량은 좌 / 중앙 / 우측 초음파 센서 데이터를 이용하여 장애물을 감지하고 주행 방향을 결정
+차량은 좌측 / 중앙 / 우측 초음파 센서 데이터를 이용하여 장애물을 감지하고 주행 방향을 결정
 
 | Command | 동작                         |
 | ------- | ---------------------------- |
@@ -93,10 +92,6 @@ Bluetooth를 통해 사용자가 직접 차량을 조작
 |    M    | Manual Mode 전환             |
 
 
-
-## Autonomous Driving Logic
-
-자율주행은 상태 기반으로 동작합니다.
 
 ## Autonomous Driving Logic
 
