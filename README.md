@@ -200,3 +200,7 @@ Core/
     └── usart.c
 ```
 
+
+
+## 영상
+<img src="qrcode_youtube.png" width="250">
