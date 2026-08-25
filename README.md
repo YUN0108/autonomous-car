@@ -96,7 +96,7 @@ Bluetooth를 통해 사용자가 직접 차량을 조작
 
 ## Autonomous Driving Logic
 
-자율주행은 상태 기반으로 동작
+자율주행은 상태 기반으로 동작합니다.
 
 STOPPED
    |
