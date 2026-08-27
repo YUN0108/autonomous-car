@@ -150,7 +150,7 @@ PIVOT_LEFT    PIVOT_RIGHT
 HC-06에서 USART1을 통해 명령을 수신
 
 명령:
-W / S / A / D
+W / S / A / D<br>
 M / U / X
 
 수신된 명령은 Message Queue를 통해 ControlTask로 전달
