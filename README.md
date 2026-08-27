@@ -149,7 +149,7 @@ PIVOT_LEFT    PIVOT_RIGHT
 
 HC-06에서 USART1을 통해 명령을 수신
 
-명령:
+명령:<br>
 W / S / A / D<br>
 M / U / X
 
