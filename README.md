@@ -1,4 +1,4 @@
-# STM32F411RE Autonomous RC Car
+# Autonomous RC Car
 
 STM32F411RE와 FreeRTOS를 기반으로 제작한 자율주행 RC Car 프로젝트
 
