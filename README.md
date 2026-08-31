@@ -15,7 +15,7 @@ HC-06 Bluetooth 모듈을 통해 수동 주행과 자율주행 모드를 전환 
 
 
 
-## 주요 기능
+## Features
 
 * FreeRTOS 기반 멀티태스킹
 * Bluetooth 이용
@@ -161,5 +161,11 @@ USART2를 이용하여 초음파 센서 측정값을 출력
 
 
 
-## 영상
+## Project Details
+[Notion - autonomous RC Car Project](https://app.notion.com/p/STM32-3ca17756329b8094a216e8f07067382e)
+
+
+
+
+## Video
 [![YouTube Video](https://img.youtube.com/vi/ZbfYcxxJoYQ/0.jpg)](https://www.youtube.com/watch?v=ZbfYcxxJoYQ)
