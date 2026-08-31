@@ -20,7 +20,7 @@ HC-06 Bluetooth 모듈을 통해 수동 주행과 자율주행 모드를 전환 
 * FreeRTOS 기반 멀티태스킹
 * Bluetooth 이용
 * Manual / Autonomous 주행 모드 전환
-* 좌 / 중앙 / 우측 초음파 센서를 이용한 거리 측정
+* 좌측 / 중앙 / 우측 초음파 센서를 이용한 거리 측정
 * 전방 장애물 감지 및 회피
 * L298N 모터 드라이버 PWM 속도 제어
 
@@ -87,9 +87,9 @@ HC-06 Bluetooth 모듈을 통해 수동 주행과 자율주행 모드를 전환 
 
 | Command | 동작                         |
 | ------- | ---------------------------- |
-|    U    | Autonomous Mode 시작 / 재시작 |
-|    X    | Stop                         |
-|    M    | Manual Mode 전환             |
+| U, u    | Autonomous Mode 시작 / 재시작 |
+| X, x    | Stop                         |
+| M, m    | Manual Mode 전환             |
 
 
 
@@ -161,41 +161,5 @@ USART2를 이용하여 초음파 센서 측정값을 출력
 
 
 
-## Software Structure
-
-```text
-Core/
-├── Inc/
-│   ├── FreeRTOSConfig.h
-│   ├── gpio.h
-│   ├── main.h
-│   ├── move.h
-│   ├── pwm.h
-│   ├── sensor_data.h
-│   ├── stm32f4xx_hal_conf.h
-│   ├── stm32f4xx_it.h
-│   ├── tim.h
-│   ├── ultrasonic.h
-│   └── usart.h
-│
-└── Src/
-    ├── freertos.c
-    ├── gpio.c
-    ├── main.c
-    ├── move.c
-    ├── pwm.c
-    ├── stm32f4xx_hal_msp.c
-    ├── stm32f4xx_hal_timebase_tim.c
-    ├── stm32f4xx_it.c
-    ├── syscalls.c
-    ├── sysmem.c
-    ├── system_stm32f4xx.c
-    ├── tim.c
-    ├── ultrasonic.c
-    └── usart.c
-```
-
-
-
 ## 영상
-<img src="qrcode_youtube.png" width="250">
+[![YouTube Video](https://img.youtube.com/vi/ZbfYcxxJoYQ/0.jpg)](https://www.youtube.com/watch?v=ZbfYcxxJoYQ)
